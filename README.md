@@ -2,7 +2,7 @@ Project Overview
 
 This project is aimed at helping hotels and restaurants digitize their meal ordering process with a lightweight, fast, and scalable web app.
 
-## Features
+ Features
 - Browse meals by category (e.g., breakfast, lunch, dinner)
 - Add to cart + set quantity
 - Live order status (Pending → Preparing → Delivered)
@@ -17,10 +17,10 @@ Demo
 [Insert Screenshot or GIF link] *(you must have this)*
 
 Tech Stack
-✅ Frontend: React + Tailwind  
-✅ Backend: **[Choose one: Firebase / Node.js]**  
-✅ DB: PostgreSQL / Firebase  
-✅ Payments: Paystack  
-✅ Deployment: Netlify / Vercel
+Frontend: React + Tailwind  
+Backend: Node.js  
+DB: PostgreSQL / Firebase  
+Payments: Paystack  
+Deployment: Netlify / Vercel
 
 
