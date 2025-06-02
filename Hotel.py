@@ -12,11 +12,12 @@ def get_db_connection():
     """Establishes and returns a connection to the MySQL database."""
     try:
         conn = mysql.connector.connect(
-            host=config("DB_HOST"),
-            user=config("DB_USER"),
-            password=config("DB_PASSWORD"),
-            database=config("DB_NAME")
-        )
+    host=config("DB_HOST"),
+    user=config("DB_USER"),
+    password=config("DB_PASSWORD"),
+    database=config("DB_NAME"),
+    port=config("DB_PORT", cast=int)
+)
         return conn
     except mysql.connector.Error as err:
         st.error(f"Database connection error: {err}")
